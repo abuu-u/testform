@@ -1,5 +1,5 @@
-import { InjectionKey } from 'vue';
-import { createStore, Store, useStore as baseUseStore } from 'vuex';
+import { InjectionKey } from 'vue'
+import { createStore, Store, useStore as baseUseStore } from 'vuex'
 
 export interface Product {
   count: number

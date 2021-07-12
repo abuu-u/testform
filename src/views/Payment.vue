@@ -8,7 +8,7 @@
     :class="{ 'button--error': state === 'error' }"
     @click="handleClick"
   >
-    Try to pay again
+    {{ buttonText }}
   </button>
 </template>
 
@@ -28,6 +28,10 @@ export default defineComponent({
       required: true,
     },
     text: {
+      type: String,
+      required: true,
+    },
+    buttonText: {
       type: String,
       required: true,
     },
